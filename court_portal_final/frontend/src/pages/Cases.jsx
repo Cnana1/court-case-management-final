@@ -54,7 +54,7 @@ export default function Cases({ showOnlyMine = false }) {
     }
   };
 
-  // 🔥 AUTO REFRESH AFTER EDIT/SAVE
+  // AUTO REFRESH AFTER EDIT/SAVE
   const handleSubmit = () => {
     setShowEditor(false);
     setEditingCase(null);
